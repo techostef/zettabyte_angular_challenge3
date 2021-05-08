@@ -1,0 +1,35 @@
+interface ISchool {
+    "_id": string,
+    "short_name": string
+}
+
+export interface ISchoolList {
+    "school": ISchool
+}
+
+export const SchoolList: ISchoolList[] = [
+    {
+        "school": {
+            "_id": "5cbe73bd5ae970104463526c",
+            "short_name": "SFT 5 "
+        }
+    },
+    {
+        "school": {
+            "_id": "5c359c407481e90ab279ba6b",
+            "short_name": "SFT 3"
+        }
+    },
+    {
+        "school": {
+            "_id": "5c359ae97481e90ab279b969",
+            "short_name": "SFT 1 (School for test)"
+        }
+    },
+    {
+        "school": {
+            "_id": "5eba74c5888363308f2e2a36",
+            "short_name": "ZettaSchool"
+        }
+    }
+]
